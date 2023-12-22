@@ -1,0 +1,2 @@
+generate-jooq:
+	./gradlew generateJooq

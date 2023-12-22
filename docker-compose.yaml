@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  postgres-world:
+    image: ghusta/postgres-world-db
+    # usename is world
+    # password is world123
+    ports:
+      - "5499:5432"
