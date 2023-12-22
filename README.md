@@ -1,6 +1,10 @@
-# java--jooq-setup
+# java--jooq-demo
 
-1. `gradle init` to init a java gradle project
-2. add jooq codegen dependencies and generate jooq code
-3. add jooq dependencies to use interact with db
+1. prepare test db
+```
+docker-compose up -d
+```
+
+2. run tests and observe the result
+
 
